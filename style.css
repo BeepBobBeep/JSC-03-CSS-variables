@@ -19,6 +19,14 @@ img{
     background-color: var(--base);
     filter: blur(var(--blur));
 }
+#img-animation{
+    transform: scale(3) translate(-12%,-18%);
+}
+
+.animation{
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
 .JS{
     color: var(--base);
 }

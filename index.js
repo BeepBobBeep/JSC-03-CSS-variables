@@ -35,3 +35,8 @@ inputBoxes = document.querySelectorAll("input");
 inputBoxes.forEach((inputBox) => {
     inputBox.addEventListener('input',executeTheChange);
 });
+
+// Adding Functionality in animation
+document.querySelector("#img-animation").addEventListener('input',function(){
+    document.querySelector("img").classList.toggle("animation");
+});
